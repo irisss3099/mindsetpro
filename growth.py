@@ -43,7 +43,7 @@ if uploaded_files:
 
         #data cleaning options
         st.subheader(" 🌟data cleaning options")
-        if st.checkboxx(f"clean data for {file.name}"):
+        if st.checkbox(f"clean data for {file.name}"):
             col1 , col2 = st.columns(2)
 
             with col1:
